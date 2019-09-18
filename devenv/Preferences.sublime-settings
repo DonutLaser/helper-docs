@@ -1,0 +1,23 @@
+{
+	"always_show_minimap_viewport": true,
+	"auto_complete": false,
+	"color_scheme": "Packages/User/DonutLaser.sublime-color-scheme",
+	"drag_text": false,
+	"enable_hexadecimal_encoding": false,
+	"fold_buttons": false,
+	"font_face": "consolas",
+	"font_size": 8,
+	"ignored_packages":
+	[
+	],
+	"indent_guide_options":
+	[
+		"draw_active"
+	],
+	"margin": 0,
+	"show_definitions": false,
+	"show_tab_close_buttons": false,
+	"tab_size": 4,
+	"theme": "Aprosopo Dark@st2.sublime-theme",
+	"word_wrap": false
+}
