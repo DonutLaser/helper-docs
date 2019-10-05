@@ -1,0 +1,6 @@
+[
+	{ "keys": ["ctrl+["], "command": "focus_group", "args": { "group": 0 } },
+	{ "keys": ["ctrl+]"], "command": "focus_group", "args": { "group": 1 } },
+	{ "keys": ["ctrl+shift+["], "command": "move_to_group", "args": { "group": 0 } },
+	{ "keys": ["ctrl+shift+]"], "command": "move_to_group", "args": { "group": 1 } },
+]
