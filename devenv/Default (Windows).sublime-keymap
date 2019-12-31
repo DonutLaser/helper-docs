@@ -1,6 +1,15 @@
 [
-	{ "keys": ["ctrl+["], "command": "focus_group", "args": { "group": 0 } },
 	{ "keys": ["ctrl+]"], "command": "focus_group", "args": { "group": 1 } },
-	{ "keys": ["ctrl+shift+["], "command": "move_to_group", "args": { "group": 0 } },
+	{ "keys": ["ctrl+["], "command": "focus_group", "args": { "group": 0 } },
 	{ "keys": ["ctrl+shift+]"], "command": "move_to_group", "args": { "group": 1 } },
+	{ "keys": ["ctrl+shift+["], "command": "move_to_group", "args": { "group": 0 } },
+	{ "keys": ["ctrl+tab"], "command": "next_view_in_stack" },
+	{ "keys": ["ctrl+shift+tab"], "command": "prev_view_in_stack" },
+	{ "keys": ["ctrl+."], "command": "sublime_linter_goto_error", "args": { "direction": "next" }},
+	{ "keys": ["ctrl+,"], "command": "sublime_linter_goto_error", "args": { "direction": "previous" }},
+	{ "keys": ["ctrl+alt+t"], "command": "build", "args": { "variant": "Test" }},
+	{ "keys": ["ctrl+alt+l"], "command": "build", "args": { "variant": "Lint" }},
+	{ "keys": ["ctrl+alt+c"], "command": "show_panel", "args": {"panel": "output.exec", "toggle": true} },
+	{ "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace" },
+	{ "keys": ["ctrl+shift+o"], "command": "open_dir", "args": { "dir": "$file_path", "file": "$file_name" } }
 ]
